@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color:#439775;
+}
+/*#142D15- pthalo blue
+#439775- illuminating emerald
+#48BF84- ocean green
+#FF6047- tomato*/
+
+
+nav{
+  text-align: center
+}
+ul{
+  list-style-type: none;
+  background-color: #FF6047;
+  overflow: hidden;
+  padding:1em;
+}
+
+p{
+   margin-right: 150px;
+  margin-left: 80px;
+  font-family:MingLiU-ExtB;
+  background-color:#48BF84 ;
+  color:#142D15 ;
+}
+li{
+  display: inline;
+ font-family:MingLiU-ExtB;
+}
+
+li a{
+  text-decoration:none;
+   color: white
+  font-size: 1.3em;
+padding: 1em;
+}
+
+li a:hover {
+  background-color: #f98c7b;
+  padding: 1em;
+
+}
+li{
+  max-width:50%
+}
+
+img{
+  max-width: 50%;
+  border-radius:5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+main{
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:20;
+  margin-right:20;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+
+h1{
+  text-align: center;
+  font-family:Copperplate Gothic Light;
+  background-color:#48BF84 ;
+  color:#142D15 ;
+  padding: 2em;
+  border: 2em;
+  border-color: black;
+}
+h2{
+     margin-right: 150px;
+  margin-left: 80px;
+  background-color:#48BF84 ;
+}
+h3{
+   margin-right: 150px;
+  margin-left: 80px;
+  font-family:Copperplate Gothic Light;
+  background-color:#48BF84 ;
+  color:#142D15 ;
+
+}
+
+h4{
+   text-align: center;
+  font-family:MingLiU-ExtB;
+  background-color:#48BF84 ;
+  color:#142D15 ;
+}
+
+
+.button {
+  background-color: #f58b7a;
+  padding: 16em;
+  text-align: center;
+  font-size: 40em;
+  font-family: MingLiU-ExtB;
+  margin: 4em;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
